@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  margin: 10rem 25%;
+}
+
+.white {
+  background-color: red;
+  height: 13rem;
+}
+
+.green {
+  position: relative;
+}
+
+.dark-green {
+  background-color: rgb(43, 179, 177);
+  height: 15rem;
+}
+
+.light-green {
+background-color: rgb(74, 190, 189);
+position: absolute;
+top: 0;
+right: 0;
+    width: 50%;
+    height: 15rem;
+}
+
+.join {
+ color: hsl(179, 62%, 43%);
+ margin-top: 0;
+}
+
+.hassle {
+  color: hsl(71, 73%, 54%);
+}
+
+.Monthly {
+  margin-top: 0;
+}
+
+.gain {
+  color: hsl(204, 43%, 93%);
+}
+
+.text-white {
+  color: white;
+}
+
+.details {
+  color: white;
+}
+
+button {
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.attribution {
+  margin-bottom: 0;
+}
