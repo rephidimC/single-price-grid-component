@@ -1,16 +1,20 @@
 body {
   margin: 0;
   font-family: 'Karla', sans-serif;
+  font-size: 16px;
   background-color: hsl(204, 43%, 93%);
 }
 
 .container {
-  margin: 10rem 25%;
+  margin: 10rem 23rem 9rem;
+  border-radius: 5px;
 }
 
 .white {
-  background-color: red;
-  height: 13rem;
+  background-color: white;
+  height: 11rem;
+  border-radius: 10px 10px 0 0;
+  padding: 2rem 2.5rem 0;
 }
 
 .green {
@@ -19,48 +23,91 @@ body {
 
 .dark-green {
   background-color: rgb(43, 179, 177);
-  height: 15rem;
+  height: 11rem;
+  border-radius: 0 0 10px 10px;
+  padding: 2rem 2.5rem;
 }
 
 .light-green {
-background-color: rgb(74, 190, 189);
-position: absolute;
-top: 0;
-right: 0;
-    width: 50%;
-    height: 15rem;
+  background-color: rgb(74, 190, 189);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 15rem;
+  border-radius: 0 0 10px 0;
 }
 
 .join {
- color: hsl(179, 62%, 43%);
- margin-top: 0;
+  color: hsl(179, 62%, 43%);
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .hassle {
   color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 1.08rem;
 }
 
 .Monthly {
-  margin-top: 0;
+  margin: 3px auto 0.5rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.cost {
+  font-size: 14px;
+  margin-top: 0.5rem;
+  color: hsl(204, 43%, 93%);
+}
+
+span {
+  font-weight: 700;
+  font-size: 1.9rem;
+  position: relative;
+  top: 0.4rem;
+  margin-right: 0.5rem;
 }
 
 .gain {
-  color: hsl(204, 43%, 93%);
+  color: hsl(218, 22%, 67%);
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.full {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .text-white {
   color: white;
 }
 
+.why {
+  font-weight: 700;
+  margin: 2.3rem 2rem 1.5rem;
+}
+
 .details {
-  color: white;
+  color: hsl(204, 43%, 93%);
+  font-size: 13px;
+  margin: 0.2rem 2rem;
 }
 
 button {
   border-style: solid;
-  border-width: 1px;
+  border-width: 0px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: 'Karla', sans-serif;
   color: white;
   background-color: hsl(71, 73%, 54%);
+  width: 14rem;
+  height: 3rem;
+  margin-top: 0.9rem;
 }
 
 .attribution {
