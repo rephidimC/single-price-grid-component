@@ -113,3 +113,68 @@ button {
 .attribution {
   margin-bottom: 0;
 }
+
+@media (max-width: 375px) {
+
+.container {
+  margin: 4rem 2rem;
+}
+
+.white {
+  height: 15rem;
+  padding: 2rem 1.5rem 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.join {
+  font-size: 1.13rem;
+}
+
+.hassle {
+      margin-top: 1.5rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.gain {
+  line-height: 2;
+  font-size: 0.8rem;
+}
+
+.dark-green {
+  border-radius: 0;
+  padding: 2rem 1.5rem;
+  height: 11.5rem;
+}
+
+.cost {
+  margin-top: 1rem;
+}
+
+.light-green {
+  position: relative;
+  width: 15.35rem;
+  padding: 1.5rem;
+  height: 11.5rem;
+  border-radius: 0 0 5px 5px;
+}
+
+.dark-green {
+  padding: 1.5rem;
+}
+
+.why {
+  margin: 0 0 1.3rem;
+}
+
+.details {
+  margin-left: 0;
+  margin: 0.4rem 0;
+}
+
+button {
+  font-size: 0.833rem;
+  width: 100%;
+}
+
+}
